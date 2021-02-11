@@ -7,7 +7,7 @@
           revision="refs/heads/dot11" />
   
   <remote name="dot-gitlab"
-          fetch="http://gitlab.com/dotos-official/"
+          fetch="http://gitlab.com/DotOS-Official/"
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
