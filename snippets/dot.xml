@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="dot"
-          fetch="https://github.com/DotOS/"
+          fetch="https://hub.fastgit.org/DotOS/"
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
   
