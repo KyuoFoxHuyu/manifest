@@ -24,7 +24,6 @@
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/bramble-kernel" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
@@ -36,9 +35,9 @@
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
-  <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
@@ -128,10 +127,12 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
 
   <!-- More repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 

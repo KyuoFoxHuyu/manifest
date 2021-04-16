@@ -7,7 +7,7 @@
           revision="refs/heads/dot11" />
   
   <remote name="dot-gitlab"
-          fetch="http://gitlab.com/DotOS-Official/"
+          fetch="http://gitlab.com/dotos-official/"
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
@@ -45,6 +45,7 @@
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
   <project path="hardware/dot/interfaces" name="android_hardware_dot_interfaces" remote="dot" />
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="dot-gitlab" />
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
@@ -95,11 +96,13 @@
   <!-- Sepolicy Repos -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
+  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dot" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
   <project path="system/vold" name="android_system_vold" remote="dot" />
 
