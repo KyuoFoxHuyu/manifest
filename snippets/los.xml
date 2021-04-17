@@ -91,8 +91,6 @@
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-18.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8250" remote="lineage" />
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf"  remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
