@@ -840,5 +840,8 @@
     
     <!-- dot OS repos -->
     <include name="snippets/dot.xml" />
+    
+    <!-- Kyuofox repos -->
+    <include name="snippets/kyuofox.xml" />
 
 </manifest>

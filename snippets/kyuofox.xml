@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="dotOS-Devices"
+          fetch="https://github.com/dotOS-Devices"
+          revision="refs/heads/dot11" />
+          
+  <remote name="Kyuofox"
+          fetch="https://github.com/KyuoFoxHuyu" />
+          
+  <!-- Device Tree -->
+  <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" remote="dotOS-Devices" />
+  <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_dipper-common" remote="dotOS-Devices" />
+  <project path="vendor/xiaomi/dipper" name="proprietary_vendor_xiaomi_dipper" remote="dotOS-Devices" />
+  <project path="vendor/xiaomi/sdm845-common" name="android_vendor_xiaomi_dipper-common" remote="dotOS-Devices" />
+  
+  <!-- Custom Kernel -->
+  <project path="kernel/xiaomi/dipper" name="android_kernel_xiaomi_sdm845" remote="Kyuofox" revision="rebase-rom" />
+  
+</manifest>
+  
