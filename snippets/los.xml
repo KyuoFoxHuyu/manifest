@@ -53,6 +53,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/tools-dot" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
