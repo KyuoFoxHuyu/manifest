@@ -29,6 +29,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
@@ -51,6 +52,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
@@ -64,33 +66,40 @@
 
   <!-- System -->
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="lineage" />
 
   <!-- Custom packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Qcom Generic HALS -->
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="dot" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
 
+  <!-- Qcom caf HALS -->
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
+  
   <!-- Audio HALS -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="dot11-caf-msm8996" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996-los/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="dot11-caf-sm8150" remote="dot" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8250" remote="lineage" />
 
   <!-- Display HALS -->
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="dot11-caf-msm8998" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="dot11-caf-msm8996" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996-los/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="dot11-caf-sm8150" remote="dot" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8250" remote="lineage" />
 
   <!-- Media HALS -->
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="dot11-caf-msm8996" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996-los/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8150" remote="lineage" />
@@ -98,6 +107,7 @@
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf"  remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
+  
 
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -112,6 +122,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996-los/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-los/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
@@ -125,5 +137,6 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  
 
 </manifest>
